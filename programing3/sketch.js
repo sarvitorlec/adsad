@@ -53,7 +53,7 @@ function draw() {
   drawGameCharacter();
 }
 
-// Функция рисования персонажа в разных состояниях
+// персонаж в разных состояниях
 function drawGameCharacter() {
   if (charState === "standing") {
     fill(255, 0, 0);
