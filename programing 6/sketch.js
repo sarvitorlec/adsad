@@ -49,9 +49,9 @@ function draw() {
     if (obj.type === "mountain") {
       triangle(obj.x1, obj.y1, obj.x2, obj.y2, obj.x3, obj.y3);
     } else if (obj.type === "ground") {
-      rect(obj.x, obj.y, obj.w, obj.h); // Земля рисуется явно
+      rect(obj.x, obj.y, obj.w, obj.h); 
     } else if (obj.type === "pit") {
-      rect(obj.x, obj.y, obj.w, obj.h); // Яма рисуется явно
+      rect(obj.x, obj.y, obj.w, obj.h); 
     } else if (obj.type === "tree_trunk") {
       rect(obj.x, obj.y, obj.w, obj.h);
     } else if (obj.type === "tree_crown") {
