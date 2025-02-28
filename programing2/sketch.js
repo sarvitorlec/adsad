@@ -44,7 +44,7 @@ function draw() {
   drawGameCharacter();
 }
 
-// Функция рисования персонажа в разных состояниях
+//  рисования персонажа в разных состояниях
 function drawGameCharacter() {
   if (charState === "standing") {
     // Стоя лицом
