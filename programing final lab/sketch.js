@@ -65,7 +65,7 @@ function resetGame() {
     { type: "cloud", x: 180, y: 100, w: 60, h: 40, fill: [255, 255, 255] }
   ];
   
-  // Удаление старой кнопки, если она существует
+  // Удаление старой кнопки
   if (playButton) {
     playButton.remove();
   }
@@ -187,7 +187,7 @@ function draw() {
     textSize(20);
     text("Score: " + score, width/2, height/2);
     
-    // Создание кнопки Play, если она еще не создана
+    // Создание кнопки Play, 
     if (!playButton) {
       playButton = createButton('Play Again');
       playButton.position(width/2 - 40, height/2 + 30);
